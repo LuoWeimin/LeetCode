@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#Solution here http://luoweimin.blogspot.com/2017/09/leetcode-514-freedom-trail.html
 
 import sys
 
