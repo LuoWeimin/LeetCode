@@ -1,5 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+# Optimization
+# you can calculate a sum matrix for M
+# S[i][j] = sum(M[0:i][0:j])
+# so sum(M[up:down][left:right]) = S[down][right] - S[down][left] - S[up][right] + S[up][left]
 
 class Solution(object):
     def imageSmoother(self, M):
@@ -18,7 +22,6 @@ class Solution(object):
                     up = 0
                 if i == len(M) - 1:
                     down = len(M) - 1
-
                 if j == 0:
                     left = 0
                 if j == len(M[0]) - 1:
