@@ -1,4 +1,9 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+
 import math
+
 
 class Solution(object):
     def validSquare(self, p1, p2, p3, p4):
